@@ -7,17 +7,21 @@ public class Prueba_Netbeans_Github {
     /**
      * @param args the command line arguments
      */
+    
     public static void main(String[] args) {
+        double nota;
+        int trimestre;
+        Notas expediente;
         
-        String cadena;
-        cadena = new String ("Hola Mundo");
+        expediente = new Notas ();
         
-        System.out.println (cadena);
+        System.out.println("Por favor, introduce el trimestre a valorar");
+        trimestre = Entrada.entero();
         
-        Object  humano;
-        humano = new Objeto_Prueba ();
+        System.out.println("Por favor, introduce la nota del trimestre "+trimestre);
+        nota = Entrada.realDoble();
         
-        int peso = 120;
+        expediente.establecerNotas(nota, trimestre);
         
     }
     
