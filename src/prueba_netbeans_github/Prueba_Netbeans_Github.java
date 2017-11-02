@@ -1,21 +1,24 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package prueba_netbeans_github;
 
-/**
- *
- * @author fagui
- */
+//@author fagui
+
 public class Prueba_Netbeans_Github {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println ("Hola mundo");
+        
+        String cadena;
+        cadena = new String ("Hola Mundo");
+        
+        System.out.println (cadena);
+        
+        Object  humano;
+        humano = new Objeto_Prueba ();
+        
+        int peso = 120;
+        
     }
     
 }
